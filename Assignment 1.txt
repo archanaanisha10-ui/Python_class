@@ -1,0 +1,87 @@
+1.Write a Python program to store your name, age, city, and profession in variables and display
+them.
+name = "Nisha Bharathy"
+age = 23
+city = "Tambaram"
+profession = "Student"
+
+print("Name:", name)
+print("Age:", age)
+print("City:", city)
+print("Profession:", profession)
+
+  
+2.Write a program to input two numbers and display their sum, difference, product, and quotient.
+
+Sum, difference, product, quotient
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Product:", a * b)
+print("Quotient:", a / b)
+
+ 
+3.Write a program to input the length and breadth of a rectangle and calculate its area and perimeter.
+ Area and perimeter of rectangle
+length = float(input("Enter length: "))
+breadth = float(input("Enter breadth: "))
+
+area = length * breadth
+perimeter = 2 * (length + breadth)
+
+print("Area:", area)
+print("Perimeter:", perimeter)
+
+ 
+4.Write a program to convert temperature from Celsius to Fahrenheit.
+  Celsius to Fahrenheit
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print("Temperature in Fahrenheit:", fahrenheit)
+
+5.Write a program to input a student's name and marks in three subjects and display the total and average.
+  Student total and average
+name = input("Enter student name: ")
+
+mark1 = float(input("Enter mark for subject 1: "))
+mark2 = float(input("Enter mark for subject 2: "))
+mark3 = float(input("Enter mark for subject 3: "))
+
+total = mark1 + mark2 + mark3
+average = total / 3
+
+print("Student Name:", name)
+print("Total:", total)
+print("Average:", average)
+6.Write a program to swap the values of two variables.
+ Swap two variables
+a = input("Enter value of a: ")
+b = input("Enter value of b: ")
+
+a, b = b, a
+
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+7.Write a program to input a number and display its square and cube.
+Square and cube
+
+number = float(input("Enter a number: "))
+
+print("Square:", number ** 2)
+print("Cube:", number ** 3) 
+8.Write a program to calculate simple interest using principal, rate, and time.
+
+ Simple interest
+principal = float(input("Enter principal: "))
+rate = float(input("Enter rate: "))
+time = float(input("Enter time: "))
+
+simple_interest = (principal * rate * time) / 100
+
+print("Simple Interest:", simple_interest)
